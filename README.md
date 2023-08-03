@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # _Zestra_
 _Where Ragas and Rhythms Converge. Embark on a Harmonious Sonic Adventure!_
 
@@ -28,8 +27,3 @@ _Start the server_
 ```bash
   npm run dev
 ```
-
-=======
-# Zestra
->Where Ragas and Rhythms Converge. Embark on a Harmonious Sonic Adventure!
->>>>>>> 221a0536933999c01164561d9a2822593f701555
