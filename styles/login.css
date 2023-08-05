@@ -1,0 +1,140 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: var(--size-3xl);
+}
+
+.login-links {
+  margin-top: 1.5rem;
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+}
+
+.login-link {
+  margin-top: 1rem;
+}
+
+.login-link__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 256px;
+  height: 48px;
+  padding: 7px 50px;
+  border: 1px solid var(--clr-slate600);
+  border-radius: 50px;
+}
+
+.login-link__img {
+  width: var(--size-2xl);
+  height: var(--size-2xl);
+}
+
+.link-text {
+  font-weight: 800;
+}
+.email-container,
+.password-container {
+  margin: 0.7rem;
+}
+
+.email-container__text,
+.password-container__text {
+  font-weight: 500;
+  font-size: var(--size-sm);
+  padding-bottom: 2px;
+}
+
+.checkbox-container {
+  margin-top: 0.6rem;
+  width: 270px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.checkbox-container__text {
+  font-size: var(--size-sm);
+  font-weight: 500;
+}
+
+.submit {
+  width: 256px;
+  height: 48px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: var(--clr-green);
+  color: var(--clr-dark);
+  border: 1px solid transparent;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.submit:hover {
+  background: transparent;
+  border: 1px solid var(--clr-green);
+  color: var(--clr-green);
+}
+
+.submit__text {
+  font-size: var(--size-base);
+  font-weight: 600;
+}
+
+@media (min-width: 375px) {
+  .login-link__container,
+  input,
+  .submit {
+    width: 311px;
+  }
+
+  .checkbox-container {
+    width: 340px;
+  }
+}
+
+@media (min-width: 425px) {
+  .login-link__container,
+  input,
+  .submit {
+    width: 361px;
+  }
+
+  .checkbox-container {
+    width: 390px;
+  }
+
+  .link-text {
+    font-size: var(--size-base);
+    font-weight: 600;
+  }
+
+  .heading {
+    font-size: var(--size-4xl);
+  }
+}
+
+@media (min-width: 630px) {
+  .login-link__container,
+  input,
+  .submit {
+    width: 420px;
+  }
+
+  .checkbox-container {
+    width: 450px;
+  }
+
+  .link-text {
+    font-size: var(--size-base);
+    font-weight: 600;
+  }
+
+  .heading {
+    font-size: var(--size-5xl);
+  }
+}

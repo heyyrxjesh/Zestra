@@ -1,12 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=poppins@500,400,100,300,700,200,600&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zestra</title>
   </head>
   <body>
+    <section class="responsive-container section-gap">
+      <div class="center">
+        <p class="heading">Log in to <strong>Zestra</strong></p>
+        <ul class="login-links">
+          <li class="login-link">
+            <button class="login-link__container">
+              <img src="./assets/google.png" alt="" class="login-link__img" />
+              <p class="link-text">Continue with Google</p>
+            </button>
+          </li>
+          <li class="login-link">
+            <button class="login-link__container">
+              <img src="./assets/apple.png" alt="" class="login-link__img" />
+              <p class="link-text">Continue with Apple</p>
+            </button>
+          </li>
+          <li class="login-link">
+            <button class="login-link__container">
+              <img src="./assets/phone.png" alt="" class="login-link__img" />
+              <p class="link-text">Continue with phone number</p>
+            </button>
+          </li>
+        </ul>
+        <div class="email-container">
+          <p class="email-container__text">Email</p>
+          <input
+            type="email"
+            placeholder="someone@exmaple.com"
+            class="email-container__textbox"
+          />
+        </div>
+        <div class="password-container">
+          <p class="password-container__text">Password</p>
+          <input
+            type="password"
+            placeholder="Password"
+            class="password-container__textbox"
+          />
+        </div>
+        <div class="checkbox-container">
+          <label class="toggle" for="myToggle">
+            <input class="toggle__input" name="" type="checkbox" id="myToggle" />
+            <div class="toggle__fill"></div>
+          </label>
+          <p class="checkbox-container__text">Remember me</p>
+        </div>
+        <button class="submit">
+          <p class="submit__text">Log In</p>
+        </button>
+      </div>
+      
+    </section>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
