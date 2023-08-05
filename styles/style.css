@@ -81,7 +81,7 @@ input {
   height: 30px;
   padding: 8px 14px;
   border: 1px solid var(--clr-slate600);
-  border-radius: 1px;
+  border-radius: 10px;
   color: inherit;
   transition: 0.3s;
   font-size: var(--size-base);
