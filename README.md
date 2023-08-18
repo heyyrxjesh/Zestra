@@ -13,7 +13,7 @@ _Clone the project_
 _Go to the project directory_
 
 ```bash
-  cd Zestra
+  cd Zestra/server
 ```
 
 _Install dependencies_
