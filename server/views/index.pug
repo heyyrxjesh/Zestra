@@ -4,4 +4,9 @@ block content
   h1= title
   p Welcome to #{title}
   h2
-    a(href='/login') login
+    if loggedin
+      | You are logged in 
+      form(action='/logout' method="POST") 
+        input(type="submit" value="logout") 
+    else
+      a(href='/login') login
